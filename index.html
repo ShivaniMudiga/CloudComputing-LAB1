@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello in All Languages</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #333;
+    }
+
+    .container {
+      background: #ffffff;
+      width: 80%;
+      max-width: 800px;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+      color: #4b3f72;
+    }
+
+    p.subtitle {
+      margin-bottom: 30px;
+      font-size: 1rem;
+      color: #666;
+    }
+
+    .hello-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .hello-card {
+      background: #f5f5ff;
+      padding: 15px;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      font-weight: 500;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .hello-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hello, World 🌍</h1>
+    <p class="subtitle">“Hello” in different languages around the world</p>
+
+    <div class="hello-grid">
+      <div class="hello-card">English – Hello</div>
+      <div class="hello-card">Hindi – नमस्ते</div>
+      <div class="hello-card">Telugu – నమస్తే</div>
+      <div class="hello-card">Tamil – வணக்கம்</div>
+      <div class="hello-card">Kannada – ನಮಸ್ಕಾರ</div>
+      <div class="hello-card">Malayalam – നമസ്കാരം</div>
+      <div class="hello-card">Spanish – Hola</div>
+      <div class="hello-card">French – Bonjour</div>
+      <div class="hello-card">German – Hallo</div>
+      <div class="hello-card">Italian – Ciao</div>
+      <div class="hello-card">Portuguese – Olá</div>
+      <div class="hello-card">Arabic – مرحبا</div>
+      <div class="hello-card">Chinese – 你好</div>
+      <div class="hello-card">Japanese – こんにちは</div>
+      <div class="hello-card">Korean – 안녕하세요</div>
+      <div class="hello-card">Russian – Привет</div>
+    </div>
+
+    <footer>
+      Made with ❤️ using HTML & CSS
+    </footer>
+  </div>
+</body>
+</html>
