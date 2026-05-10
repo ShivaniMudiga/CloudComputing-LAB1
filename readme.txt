@@ -642,8 +642,7 @@ aws configure
 it will ask for access key name , access key , region , output format 
 
 C:\Users\Govardhan>aws configure
-AWS Access Key ID [****************NZH4]: AKIA3EUZJYQ52HCXNZH4
-AWS Secret Access Key [****************zt+Z]: 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
+
 Default region name [None]: ap-south-1
 Default output format [None]: json 
 
@@ -655,9 +654,6 @@ make_bucket: shivani-test-12345
 C:\Users\Govardhan>aws s3 ls
 2026-04-30 18:17:00 shivani-test-12345
 
-User name : s3-user
-Password : user@123
-Acc no : 765899424827
 
 🚀 WEEK-13: IAM Role → EC2 (STEP-BY-STEP)
 ________________________________________
